@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <link rel="stylesheet" type="text/css" href="styles/Style.css" />
+		<link rel="stylesheet" type="text/css" href="styles/jquery.bxslider.css" />
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+		<script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
+		<script type="text/javascript" src="scripts/maphilight.js"></script>
+		<script type="text/javascript" src="scripts/jquery.bxslider.js"></script>
+		<script type="text/javascript" src="scripts/main.js"></script>
+		
+        <title>Casus Belli</title>
+    </head>
+    
+    <body>
+        <div id="all">
+            <header id="header">
+            	<div id="logo"></div>
+				<nav>
+					<ul>
+						<li>СПИСОК ТОВАРІВ</li>
+						<li>FAQ</li>
+						<li>КОНТАКТИ</li>
+					</ul>
+				</nav>
+            </header>
+            <section id="main">
+				<div id="mapglobal" class="mapsize">
+					<div id="map">
+						<canvas id="canvasmap">
+						</canvas>
+						<img class="map maphilighted" src="styles/images/карта.png" id="mapimg" usemap="#europe"></img> 
+					</div>
+					<div id="mappanel">
+							КРАЇНИ &#8211 ПОСТАЧАЛЬНИКИ СПОРЯДЖЕННЯ
+						</div>
+						<div id="togallery">
+						ДО ГАЛЕРЕЇ
+						</div>
+						<div id="arrow"></div>
+						
+						<map name="europe">
+							<area href="/ProductsList?CountryId=2" shape="poly" coords="303,29,293,33,293,41,289,42,282,42,278,41,274,38,274,37,271,39,268,43,266,47,262,50,262,53,257,53,255,60,255,68,252,66,252,56,249,58,244,60,245,64,234,104,224,106,217,111,216,116,212,116,210,122,207,123,210,128,213,133,216,134,222,130,224,134,228,141,239,138,241,158,228,186,210,222,205,238,319,240,332,196">
+						</map>
+				</div>
+				
+				<div id="carouselinner" class="mapsize">
+					<ul class="bxslider">
+					  <li>
+						<div class="tomap"> Назад до карти</div>
+						<img src="styles/images/slider1.jpg" />
+					  </li>
+					  <li>
+						<div class="tomap"> Назад до карти</div>
+						<img src="styles/images/slider2.jpg" />
+					  </li>
+					  <li>
+						<div class="tomap"> Назад до карти</div>
+						<img src="styles/images/slider3.jpg" />
+					  </li>
+					  <li>
+						<div class="tomap"> Назад до карти</div>
+						<img src="styles/images/slider4.jpg" />
+					  </li>
+					</ul>
+				</div>
+				
+				<div id="products">
+					<div class="product">
+						<div class="productimage"></div>
+						<div class="productname">КАМУФЛЯЖ</div>
+					</div>
+					<div class="product">
+						<div class="productimage"></div>
+						<div class="productname">РЮКЗАКИ</div>
+					</div>
+					<div class="product">
+						<div class="productimage"></div>
+						<div class="productname">АКСЕСУАРИ</div>
+					</div>
+					<div class="product">
+						<div class="productimage"></div>
+						<div class="productname">РОЗГРУЗКИ</div>
+					</div>
+					<div class="product">
+						<div class="productimage"></div>
+						<div class="productname">ДОЩОВИКИ</div>
+					</div>
+					<div class="product">
+						<div class="productimage"></div>
+						<div class="productname">СПАЛЬНІ МІШКИ</div>
+					</div>
+				</div>
+			</section>
+			<footer>
+			`	<div id="footext">
+					<ul>
+						<li>СПИСОК ТОВАРІВ</li>
+						<li>FAQ</li>
+						<li>КОНТАКТИ</li>
+					</ul>
+				</div>	
+				<div id="contacts">
+					<div class="phone">+38(093)55 355 11</div>
+					<div class="phone">+38(050)78 634 61</div>
+					<div> Admin@casusbelli.com.ua
+					</div> 
+				</div>
+			</footer>
+        </div>
+    </body>
+</html>
