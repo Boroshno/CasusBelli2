@@ -377,8 +377,8 @@
 				height +=	parseFloat(slider.viewport.css('padding-top')) + parseFloat(slider.viewport.css('padding-bottom'));
 			}
 
-			//return height;   hardcode!!!!
-			return 445;
+			//return height;   //hardcode!!!!
+			return 456;
 		}
 
 		/**

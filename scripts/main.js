@@ -11,8 +11,8 @@ $(document).ready(function(){
 	$('.mapglobal').width($('#main').width());
 	
 	var mainwidth = $('#main').width();
-	$('#carouselinner').width($('#main').width());
-	$('#carouselinner').css('left', mainwidth);
+	$('#carouselinner').width(mainwidth + 1);
+	$('#carouselinner').css('left', mainwidth + 1);
 	
 	$('#arrow').click(function() {
 		$('#carouselinner').animate({
@@ -24,7 +24,7 @@ $(document).ready(function(){
 	
 	$('.tomap').click(function(){
 		$('#carouselinner').animate({
-			'left': mainwidth
+			'left': mainwidth + 1
 		}, 1000, function(){
 			
 		});

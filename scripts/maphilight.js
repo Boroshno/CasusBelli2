@@ -207,6 +207,8 @@
 		}
 		
 		return this.each(function() {
+			this.width = $('#main').width() + 1; // Kostyl
+			
 			var img, wrap, options, map, canvas, canvas_always, mouseover, highlighted_shape, usemap;
 			img = $(this);
 

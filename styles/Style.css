@@ -113,7 +113,8 @@ nav li:hover{
 	background-color: rgba(209, 227, 201, 0.7);
 	padding: 23px;
 	margin: 0 auto;
-	width: 34%;
+	//width: 50%;
+	//min-width:150px;
 	position:absolute;
 	top:40%;
 	left:30%;
@@ -145,6 +146,21 @@ nav li:hover{
 	position:absolute;
 }
 
+ul.bxslider > li {
+	height:456px;
+}
+
+.tomap{
+  position: absolute;
+  background: wheat;
+  font-size: 12pt; 
+  font-family: "MyriadProCondRegular";
+  bottom:15px;
+  left: 15px;
+  background-color: rgb(207,226,199);
+  padding:5px;
+}
+
 #products{
 	width: 90%;
 	margin-left: 5%;
@@ -154,7 +170,8 @@ nav li:hover{
 }
 .product{
 	height: 328px;
-	width: 298px;
+	max-width: 300px;
+	min-width: 266px;
 	background-color: rgb(207, 226, 199);
 	float: left;
 	margin: 12px;
