@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 
 <html>
     <head>
@@ -28,72 +28,121 @@
 				</nav>
             </header>
             <section id="main">
-				<div id="mapglobal" class="mapsize">
-					<div id="map">
-						<canvas id="canvasmap">
-						</canvas>
-						<img class="map maphilighted" src="styles/images/карта.png" id="mapimg" usemap="#europe"></img> 
-					</div>
-					<div id="mappanel">
-							КРАЇНИ &#8211 ПОСТАЧАЛЬНИКИ СПОРЯДЖЕННЯ
-						</div>
-						<div id="togallery">
-						ДО ГАЛЕРЕЇ
-						</div>
-						<div id="arrow"></div>
-						
-						<map name="europe">
-							<area href="/ProductsList?CountryId=2" shape="poly" coords="303,29,293,33,293,41,289,42,282,42,278,41,274,38,274,37,271,39,268,43,266,47,262,50,262,53,257,53,255,60,255,68,252,66,252,56,249,58,244,60,245,64,234,104,224,106,217,111,216,116,212,116,210,122,207,123,210,128,213,133,216,134,222,130,224,134,228,141,239,138,241,158,228,186,210,222,205,238,319,240,332,196">
-						</map>
-				</div>
+                <div style="height:458px;">
+                    <div id="mapglobal" class="mapsize">
+                        <div id="map">
+                            <canvas id="canvasmap"></canvas>
+                            <img class="map maphilighted" src="styles/images/карта.png" id="mapimg" usemap="#europe"></img>
+                        </div>
+                        <div id="mappanel">
+                            КРАЇНИ &#8211 ПОСТАЧАЛЬНИКИ СПОРЯДЖЕННЯ
+                        </div>
+                        <div id="togallery">
+                            ДО ГАЛЕРЕЇ
+                        </div>
+                        <div id="arrow"></div>
+
+                        <map name="europe">
+                            <area href="/ProductsList?CountryId=2" shape="poly" coords="303,29,293,33,293,41,289,42,282,42,278,41,274,38,274,37,271,39,268,43,266,47,262,50,262,53,257,53,255,60,255,68,252,66,252,56,249,58,244,60,245,64,234,104,224,106,217,111,216,116,212,116,210,122,207,123,210,128,213,133,216,134,222,130,224,134,228,141,239,138,241,158,228,186,210,222,205,238,319,240,332,196">
+                        </map>
+                    </div>
+
+                    <div id="carouselinner" class="mapsize">
+                        <ul class="bxslider">
+                            <li>
+                                <div class="tomap">НАЗАД ДО КАРТИ</div>
+                                <img src="styles/images/slider1.jpg" />
+                            </li>
+                            <li>
+                                <div class="tomap">НАЗАД ДО КАРТИ</div>
+                                <img src="styles/images/slider2.jpg" />
+                            </li>
+                            <li>
+                                <div class="tomap">НАЗАД ДО КАРТИ</div>
+                                <img src="styles/images/slider3.jpg" />
+                            </li>
+                            <li>
+                                <div class="tomap">НАЗАД ДО КАРТИ</div>
+                                <img src="styles/images/slider4.jpg" />
+                            </li>
+                        </ul>
+                    </div>
+                </div>
 				
-				<div id="carouselinner" class="mapsize">
-					<ul class="bxslider">
-					  <li>
-						<div class="tomap">НАЗАД ДО КАРТИ</div>
-						<img src="styles/images/slider1.jpg" />
-					  </li>
-					  <li>
-						<div class="tomap">НАЗАД ДО КАРТИ</div>
-						<img src="styles/images/slider2.jpg" />
-					  </li>
-					  <li>
-						<div class="tomap">НАЗАД ДО КАРТИ</div>
-						<img src="styles/images/slider3.jpg" />
-					  </li>
-					  <li>
-						<div class="tomap">НАЗАД ДО КАРТИ</div>
-						<img src="styles/images/slider4.jpg" />
-					  </li>
-					</ul>
-				</div>
-				
+                <div style="height:20px;"></div>
 				<div id="products">
-					<div class="product">
-						<div class="productimage"></div>
-						<div class="productname">КАМУФЛЯЖ</div>
-					</div>
-					<div class="product">
-						<div class="productimage"></div>
-						<div class="productname">РЮКЗАКИ</div>
-					</div>
-					<div class="product">
-						<div class="productimage"></div>
-						<div class="productname">АКСЕСУАРИ</div>
-					</div>
-					<div class="product">
-						<div class="productimage"></div>
-						<div class="productname">РОЗГРУЗКИ</div>
-					</div>
-					<div class="product">
-						<div class="productimage"></div>
-						<div class="productname">ДОЩОВИКИ</div>
-					</div>
-					<div class="product">
-						<div class="productimage"></div>
-						<div class="productname">СПАЛЬНІ МІШКИ</div>
-					</div>
-				</div>
+                    <div class="productrow">
+                        <div class="product">
+                            <div class="productcontent">
+                                <div class="productimage" style="background: url('styles/images/китель.png') no-repeat scroll 0% 0% / contain transparent"></div>
+                                <div class="productname">КАМУФЛЯЖ</div>
+                                <div class="productsubtype">
+                                    <div class="productname">КІТЕЛЬ</div>
+                                    <div class="productname">ПАРКА</div>
+                                    <div class="productname">ШТАНИ</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product">
+                            <div class="productcontent">
+                                <div class="productimage" style="background: url('styles/images/рюкзак.png') no-repeat scroll 0% 0% / contain transparent"></div>
+                                <div class="productname">РЮКЗАКИ</div>
+                                <div class="productsubtype">
+                                    <div class="productname">КІТЕЛЬ</div>
+                                    <div class="productname">ПАРКА</div>
+                                    <div class="productname">ШТАНИ</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product">
+                            <div class="productcontent">
+                                <div class="productimage" style="background: url('styles/images/ремень.png') no-repeat scroll 0% 0% / contain transparent"></div>
+                                <div class="productname">АКСЕСУАРИ</div>
+                                <div class="productsubtype">
+                                    <div class="productname">КІТЕЛЬ</div>
+                                    <div class="productname">ПАРКА</div>
+                                    <div class="productname">ШТАНИ</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="productrow">
+                        <div class="product">
+                            <div class="productcontent">
+                                <div class="productimage" style="background: url('styles/images/разгрузка.png') no-repeat scroll 0% 0% / contain transparent"></div>
+                                <div class="productname">РОЗГРУЗКИ</div>
+                                <div class="productsubtype">
+                                    <div class="productname">КІТЕЛЬ</div>
+                                    <div class="productname">ПАРКА</div>
+                                    <div class="productname">ШТАНИ</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product">
+                            <div class="productcontent">
+                                <div class="productimage" style="background: url('styles/images/дождевик.png') no-repeat scroll 0% 0% / contain transparent"></div>
+                                <div class="productname">ДОЩОВИКИ</div>
+                                <div class="productsubtype">
+                                    <div class="productname">КІТЕЛЬ</div>
+                                    <div class="productname">ПАРКА</div>
+                                    <div class="productname">ШТАНИ</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product">
+                            <div class="productcontent">
+                                <div class="productimage" style="background: url('styles/images/мешок.png') no-repeat scroll 0% 0% / contain transparent"></div>
+                                <div class="productname">СПАЛЬНІ МІШКИ</div>
+                                <div class="productsubtype">
+                                    <div class="productname">КІТЕЛЬ</div>
+                                    <div class="productname">ПАРКА</div>
+                                    <div class="productname">ШТАНИ</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div style="height:45px;"></div>
 			</section>
 			<footer>
 			`	<div id="footext">

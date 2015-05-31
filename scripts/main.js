@@ -31,4 +31,18 @@ $(document).ready(function(){
 	});
 	
 	$('.bxslider').bxSlider();
+
+    $('.productname').mouseenter(function(event) {
+        $(this).next('.productsubtype').clearQueue().stop(true, true).animate({
+            'height': '100%'
+        }, 500, function() {
+        });
+    });
+
+    $('.productcontent').mouseleave(function (event) {
+        $(this).children('.productsubtype').clearQueue().stop(true, true).animate({
+            'height': '0%'
+        }, 500, function () {
+        });
+    });
 });

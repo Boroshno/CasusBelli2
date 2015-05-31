@@ -9,7 +9,7 @@ body, html {
 }
 
 area {
-dispaly:inline;
+/*dispaly:inline;*/
 cursor:pointer;
 }
 
@@ -22,7 +22,7 @@ cursor:pointer;
 }
 
 #all {
-	width: 80%;	
+	width: 70%;	
 	height: 100%;
 	margin: 0 auto;	
 }
@@ -163,25 +163,51 @@ ul.bxslider > li {
 
 #products{
 	width: 90%;
-	margin-left: 5%;
-	display:inline-block;
+	margin: 0 auto;
+	display:block;
 	margin-top: 20px;
 	margin-bottom: 45px;
 }
 .product{
-	height: 328px;
-	max-width: 300px;
-	min-width: 266px;
+	/*height: 328px;*/
+    width: 31.3%;
 	background-color: rgb(207, 226, 199);
 	float: left;
 	margin: 12px;
-}
-.product div.productimage{
-	height: 297px;
+    position: relative;
 }
 
-.product div.productname{
-	height:27px;
+.product:before {
+    content: "";
+    display: block;
+    padding-top: 100%;
+}
+
+.productcontent {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+}
+
+.productsubtype {
+    height: 0px;
+    position: absolute;
+    width: 100%;
+    overflow: hidden;
+}
+.productsubtype > .productname {
+    background-color: rgba(52, 97, 56, 0.5);
+    color: black;
+}
+.productimage{
+	height: 92%;
+
+}
+
+.productname{
+	height:8%;
 	background-color: rgb(52, 97, 56);
 	font-size: 12pt; 
 	font-family: "MyriadProCondRegular";
