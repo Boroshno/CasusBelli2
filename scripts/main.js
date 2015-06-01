@@ -32,6 +32,14 @@ $(document).ready(function(){
 	
 	$('.bxslider').bxSlider();
 
+    $(window).resize(function() {
+        if ($('#main').width() < 700) {
+            $('.product').width('47.3%');
+        } else {
+            $('.product').width('31.3%');
+        }
+    });
+
     $('.productname').mouseenter(function(event) {
         $(this).next('.productsubtype').clearQueue().stop(true, true).animate({
             'height': '100%'

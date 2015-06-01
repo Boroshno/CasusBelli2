@@ -249,8 +249,9 @@
 				background: 'url("' + this.src + '") no-repeat',
 				position:'relative',
 				padding:0,
-				width:this.width,
-				height:this.height
+				width:'1062px',//this.width,                     harcode
+				height: this.height,
+                margin:'auto'
 				});
 			if(options.wrapClass) {
 				if(options.wrapClass === true) {
