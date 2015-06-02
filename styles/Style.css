@@ -28,6 +28,13 @@ a {
     url("fonts/MyriadProCondRegular/MyriadProCondRegular.ttf") format("truetype");
 }
 
+.float-right{
+	margin-top: 10px;
+    margin-right: 13%;
+    float: right;
+    width: 24px;
+}
+
 #all {
 	width: 70%;
 	margin: 0 auto;	
