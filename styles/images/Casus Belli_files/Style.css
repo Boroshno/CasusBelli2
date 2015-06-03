@@ -20,15 +20,6 @@ a {
   text-decoration: none;
 }
 
-input, textarea {
-	border:none;
-}
-
-h3{
-	font-weight: 100;
-	  font-size: 22pt;
-}
-
 @font-face {
     font-family: "MyriadProCondRegular";
     src: url("fonts/MyriadProCondRegular/MyriadProCondRegular.eot");
@@ -358,43 +349,14 @@ background-size: 14%;
   }
   .contactform > .name {
 	float:left;
-	width:60%;
+	width:50%;
   }
   .contactform > .email {
 	float: right;
-	width:40%;
-  }
-  
-  .contactform > div > input{
-	  background-color: rgb(207,226,199);
+	width:50%;
   }
 
   input.contact{
 	height: 22px;
-	width: 69%;
+	width: 80%;
   }
-  .inputtitle{
-	font-family: "MyriadProCondRegular";
-	padding:4px;
-  }
-  .btnsend {
-	margin-top:7px;
-	list-style-type: none;
-	display: inline;
-	padding: 9px;
-	font-size: 12pt; 
-	font-family: "MyriadProCondRegular";
-	float:right;
-	background-color: rgb(76, 134, 60);
-	cursor:pointer;
-  }
-  .btnsend:hover{
-  
-	list-style-type: none;
-	display: inline;
-	padding: 9px;
-	font-size: 12pt; 
-	font-family: "MyriadProCondRegular";
-	background-color: rgb(76, 134, 81);
-  }
-  
